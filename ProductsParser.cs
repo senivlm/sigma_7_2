@@ -5,7 +5,7 @@ using System.IO;
 namespace sigma_7_2
 {
     class ProductsParser
-    {
+    { ООП. Не до кінця розв'язана задача
         private Dictionary<string, double> _recipes = new Dictionary<string, double>();
         private Dictionary<string, int> _prices = new Dictionary<string, int>();
         public ProductsParser(string recipesFile = "recipes.txt", string priceFile = "price.txt")
